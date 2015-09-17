@@ -1,7 +1,7 @@
 
 
 body { 
-	background-color: #610B38;
+	background-color: #000000;
     padding-top: 90px;  Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. 
 }
 
@@ -15,8 +15,16 @@ body {
 .col-sm-2{
      		height: 100px;
      		background-color: #F4FA58;
-     		text-align: center;
+     		text-align: center;flip-container, .front, .ba . ck;
      	}
+     	
+ .ck {
+	width: 320px;
+	height: 480px;  } 	
+
+
+div.floating-menu {position:fixed;background:#fff4c8;padding:5px;;width:130px;z-index:100;}
+div.floating-menu a, div.floating-menu h3 {display:block;margin:0 0.5em;}
 
 
 footer {
